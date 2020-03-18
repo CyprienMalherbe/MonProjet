@@ -1,3 +1,4 @@
+MotChoisi = "Bonjour"
 LettreChoisie = 0
 while type(LettreChoisie) != str:
     print(MotChoisi)
@@ -5,5 +6,4 @@ while type(LettreChoisie) != str:
     try:
         LettreChoisie = int(LettreChoisie)
     except ValueError:
-        print("OK")
-
+        print("Ah ouai byebye")
