@@ -6,4 +6,4 @@ while type(LettreChoisie) != str:
     try:
         LettreChoisie = int(LettreChoisie)
     except ValueError:
-        print("Ah ouai byebye")
+        print("Ah ouai byebye !!!")
